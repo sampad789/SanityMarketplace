@@ -53,6 +53,7 @@ export const StateContext=({children})=>{
   setTotalQuantities(prevTotalQuantities=>prevTotalQuantities-foundProduct.quantity)
   setCartItems(newCartItems)
   }
+  
   const toggleCartItemQuantity =(id,value)=>{
 
     foundProduct= cartItems.find((item)=>item._id===id)
@@ -120,7 +121,10 @@ export const StateContext=({children})=>{
       decQty,
       onProductDelete,
       onAddToCart,
-      toggleCartItemQuantity
+      toggleCartItemQuantity,
+      setCartItems,
+      setTotalPrice,
+      setTotalQuantities,
         }}>
       {children}
     </Context.Provider>

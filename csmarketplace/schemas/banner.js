@@ -21,6 +21,15 @@ export default {
           title: 'Product',
           type: 'string',
       },
+    /**   {
+        name:'slug',
+        title:'Slug',
+        type:'slug',
+   options:{
+     source:'product',
+     maxLength:80,
+   }
+      },*/
       {
           name: 'desc',
           title: 'Desc',

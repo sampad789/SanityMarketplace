@@ -55,10 +55,10 @@ const ProductDetails = ({product,products}) => {
         <div className="quantity">
         
           <p className="quantity-desc">
-            <span className="minus" onClick=""> Wear: {wear}</span>
-            <span className="num" onClick="">Pattern: {pattern}</span>
-            <span className="plus" onClick="">Finish: {finish}</span>
-            <span className="num2" onClick="">Rarity: {rarity}</span>
+            <span className="minus"> Wear: {wear}</span>
+            <span className="num" >Pattern: {pattern}</span>
+            <span className="plus" >Finish: {finish}</span>
+            <span className="num2" >Rarity: {rarity}</span>
           </p>
         </div>
 
